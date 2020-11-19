@@ -4,22 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Countries API</title>
+    <title>countries</title>
   </head>
-
   <body>
-    <main class="main">
-      <div class="container">
-        <div class="input-wrp">
-          <input
-            type="search"
-            class="search-input"
-            placeholder="write country name"
-          />
-          <ul class="countries-list"></ul>
-        </div>
-        <div class="country-wrp"></div>
+    <div class="container">
+      <div class="country-select">
+        <h2 class="country-select__title">Enter country name</h2>
+        <input type="text" class="inputCountry country-select__input" />
+        <ul class="country-select__list"></ul>
       </div>
-    </main>
+      <div class="selected-country"></div>
+    </div>
   </body>
 </html>

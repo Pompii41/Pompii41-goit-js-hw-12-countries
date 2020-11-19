@@ -1,0 +1,49 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.country-select {
+  text-align: center;
+  padding: 50px 0 0 0;
+  margin: 0 0 70px 0;
+
+  &__input {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 27px;
+    padding: 14px 20px 14px 20px;
+    outline-style: none;
+  }
+
+  &__list-item {
+    text-align: start;
+    cursor: pointer;
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.selected-country {
+  &__wrap {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__title {
+    font-weight: 700;
+    &--main {
+      text-align: center;
+      font-size: 70px;
+    }
+  }
+
+  &__value {
+    font-weight: 300;
+  }
+
+  &__languages-list-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
